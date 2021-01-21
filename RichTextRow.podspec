@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.requires_arc = true
   s.ios.source_files = 'Sources/**/*.{swift}'
-  s.ios.resource_bundle = { 'Resources' => 'Sources/**/*.{html,js}' }
+  s.ios.resource_bundle = { 'RichTextRow' => 'Sources/**/*.{html,js}' }
   s.dependency 'Eureka', '~> 5.3'
   s.swift_versions   = ['5.0']
 end
