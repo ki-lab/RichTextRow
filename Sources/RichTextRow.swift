@@ -5,6 +5,7 @@
 //  Created by Fabio Felici on 5/3/17.
 //
 
+import UIKit
 import Eureka
 
 public final class RichTextCell: Cell<String>, CellType, RichTextEditorDelegate {

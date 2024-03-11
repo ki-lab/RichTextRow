@@ -6,6 +6,7 @@
 //
 
 import WebKit
+import UIKit
 
 public protocol RichTextEditorDelegate: class {
     func textDidChange(text: String)
