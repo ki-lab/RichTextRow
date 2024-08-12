@@ -58,10 +58,10 @@ public class RichTextEditor: UIView, WKScriptMessageHandler, WKNavigationDelegat
 
     public override init(frame: CGRect = .zero) {
         placeholderLabel.textColor = UIColor.lightGray.withAlphaComponent(0.65)
+        
+        let bundle = Bundle.podBundle
 
-        guard let bundlePath = Bundle(for: type(of: self)).path(forResource: "RichTextRow", ofType: "bundle"),
-            let bundle = Bundle(path: bundlePath),
-            let scriptPath = bundle.path(forResource: "RichTextEditor", ofType: "js"),
+        guard let scriptPath = bundle.path(forResource: "RichTextEditor", ofType: "js"),
             let scriptContent = try? String(contentsOfFile: scriptPath, encoding: String.Encoding.utf8),
             let htmlPath = bundle.path(forResource: "RichTextEditor", ofType: "html"),
             let html = try? String(contentsOfFile: htmlPath, encoding: String.Encoding.utf8)

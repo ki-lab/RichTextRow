@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06F10240DD98216114E057B2 /* Pods_RichTextRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A384FADD1A45D6359EF4D1E5 /* Pods_RichTextRowTests.framework */; };
 		7EA1313829BF7D056076AB8C /* Pods_RichTextRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360D3FAF838383AADE594C2D /* Pods_RichTextRow.framework */; };
+		8B0AB3AF2C6A5B4600351578 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AB3AE2C6A5B4600351578 /* Bundle.swift */; };
 		B62500DB1EBA157300F4D8D5 /* RichTextRow.h in Headers */ = {isa = PBXBuildFile; fileRef = B62500D91EBA157300F4D8D5 /* RichTextRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B625012C1EBA22D700F4D8D5 /* RichTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B625012B1EBA22D700F4D8D5 /* RichTextRow.swift */; };
 		B625012D1EBA261300F4D8D5 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62501291EBA227C00F4D8D5 /* Eureka.framework */; };
@@ -48,6 +49,7 @@
 		360D3FAF838383AADE594C2D /* Pods_RichTextRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTextRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		469E832949EBF83752EAFCD8 /* Pods-RichTextRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextRowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextRowTests/Pods-RichTextRowTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D843739397F0EF23B03C7F9 /* Pods-RichTextRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextRowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextRowTests/Pods-RichTextRowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0AB3AE2C6A5B4600351578 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		A384FADD1A45D6359EF4D1E5 /* Pods_RichTextRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTextRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62500D01EBA154A00F4D8D5 /* RichTextRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichTextRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62500D81EBA157300F4D8D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8B0AB3AD2C6A5B3000351578 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AB3AE2C6A5B4600351578 /* Bundle.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B62500A91EBA143F00F4D8D5 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 		B62500C81EBA150300F4D8D5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8B0AB3AD2C6A5B3000351578 /* Extensions */,
 				B62500D91EBA157300F4D8D5 /* RichTextRow.h */,
 				B625012B1EBA22D700F4D8D5 /* RichTextRow.swift */,
 				B6CF20DC1EBB3AE900D66C72 /* RichTextEditor.swift */,
@@ -427,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B625012C1EBA22D700F4D8D5 /* RichTextRow.swift in Sources */,
+				8B0AB3AF2C6A5B4600351578 /* Bundle.swift in Sources */,
 				B6CF20DD1EBB3AE900D66C72 /* RichTextEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

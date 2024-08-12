@@ -15,6 +15,9 @@ let package = Package(
             name: "RichTextRow",
             dependencies: ["Eureka"],
             path: "Sources"
+            resources: [
+                .process("RichTextRow"),
+            ]
         ),
         .testTarget(
             name: "RichTextRowTests",
