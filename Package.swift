@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
@@ -16,7 +16,8 @@ let package = Package(
             dependencies: ["Eureka"],
             path: "Sources",
             resources: [
-                .copy("Resources"),
+                .copy("Resources/RichTextEditor.html"),
+                .copy("Resources/RichTextEditor.js")
             ]
         ),
         .testTarget(
