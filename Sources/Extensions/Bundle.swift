@@ -15,15 +15,7 @@ extension Bundle {
         #if SWIFT_PACKAGE
         return Bundle.module
         #else
-        var podBundle = Bundle(for: RichTextEditor.classForCoder())
-        
-        if let bundlePath = podBundle.path(forResource: "RichTextRow", ofType: "bundle") {
-            if let bundle = Bundle(path: bundlePath) {
-                podBundle = bundle
-            }
-        }
-        
-        return podBundle
+        return Bundle(for: RichTextEditor.classForCoder())
         #endif
     }
     

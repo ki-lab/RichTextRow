@@ -10,6 +10,8 @@
 		06F10240DD98216114E057B2 /* Pods_RichTextRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A384FADD1A45D6359EF4D1E5 /* Pods_RichTextRowTests.framework */; };
 		7EA1313829BF7D056076AB8C /* Pods_RichTextRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360D3FAF838383AADE594C2D /* Pods_RichTextRow.framework */; };
 		8B0AB3AF2C6A5B4600351578 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AB3AE2C6A5B4600351578 /* Bundle.swift */; };
+		8BCF95262C6B5C7C000180A2 /* RichTextEditor.html in Resources */ = {isa = PBXBuildFile; fileRef = 8BCF95242C6B5C7C000180A2 /* RichTextEditor.html */; };
+		8BCF95272C6B5C7C000180A2 /* RichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = 8BCF95252C6B5C7C000180A2 /* RichTextEditor.js */; };
 		B62500DB1EBA157300F4D8D5 /* RichTextRow.h in Headers */ = {isa = PBXBuildFile; fileRef = B62500D91EBA157300F4D8D5 /* RichTextRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B625012C1EBA22D700F4D8D5 /* RichTextRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B625012B1EBA22D700F4D8D5 /* RichTextRow.swift */; };
 		B625012D1EBA261300F4D8D5 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62501291EBA227C00F4D8D5 /* Eureka.framework */; };
@@ -18,7 +20,6 @@
 		B652AB321EBB657500BBEC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B652AB301EBB657500BBEC43 /* Main.storyboard */; };
 		B652AB341EBB657500BBEC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B652AB331EBB657500BBEC43 /* Assets.xcassets */; };
 		B652AB371EBB657500BBEC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B652AB351EBB657500BBEC43 /* LaunchScreen.storyboard */; };
-		B6894C351EC1FCA800007BB1 /* RichTextRow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B6894C341EC1FCA800007BB1 /* RichTextRow.bundle */; };
 		B6CF20DD1EBB3AE900D66C72 /* RichTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF20DC1EBB3AE900D66C72 /* RichTextEditor.swift */; };
 		B6CF21241EBB5F0C00D66C72 /* RichTextRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CF21231EBB5F0C00D66C72 /* RichTextRowTests.swift */; };
 		B6CF21261EBB5F0C00D66C72 /* RichTextRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62500D01EBA154A00F4D8D5 /* RichTextRow.framework */; };
@@ -50,6 +51,8 @@
 		469E832949EBF83752EAFCD8 /* Pods-RichTextRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextRowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextRowTests/Pods-RichTextRowTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D843739397F0EF23B03C7F9 /* Pods-RichTextRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RichTextRowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RichTextRowTests/Pods-RichTextRowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B0AB3AE2C6A5B4600351578 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		8BCF95242C6B5C7C000180A2 /* RichTextEditor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = RichTextEditor.html; sourceTree = "<group>"; };
+		8BCF95252C6B5C7C000180A2 /* RichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RichTextEditor.js; sourceTree = "<group>"; };
 		A384FADD1A45D6359EF4D1E5 /* Pods_RichTextRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RichTextRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62500D01EBA154A00F4D8D5 /* RichTextRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichTextRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62500D81EBA157300F4D8D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +66,6 @@
 		B652AB331EBB657500BBEC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B652AB361EBB657500BBEC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B652AB381EBB657500BBEC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6894C341EC1FCA800007BB1 /* RichTextRow.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RichTextRow.bundle; sourceTree = "<group>"; };
 		B6CF20DC1EBB3AE900D66C72 /* RichTextEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextEditor.swift; sourceTree = "<group>"; };
 		B6CF21211EBB5F0C00D66C72 /* RichTextRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF21231EBB5F0C00D66C72 /* RichTextRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextRowTests.swift; sourceTree = "<group>"; };
@@ -123,6 +125,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8BCF95232C6B5C5E000180A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BCF95242C6B5C7C000180A2 /* RichTextEditor.html */,
+				8BCF95252C6B5C7C000180A2 /* RichTextEditor.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		B62500A91EBA143F00F4D8D5 = {
 			isa = PBXGroup;
 			children = (
@@ -148,12 +159,12 @@
 		B62500C81EBA150300F4D8D5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8BCF95232C6B5C5E000180A2 /* Resources */,
 				8B0AB3AD2C6A5B3000351578 /* Extensions */,
 				B62500D91EBA157300F4D8D5 /* RichTextRow.h */,
 				B625012B1EBA22D700F4D8D5 /* RichTextRow.swift */,
 				B6CF20DC1EBB3AE900D66C72 /* RichTextEditor.swift */,
 				B62500D81EBA157300F4D8D5 /* Info.plist */,
-				B6894C341EC1FCA800007BB1 /* RichTextRow.bundle */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -316,7 +327,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6894C351EC1FCA800007BB1 /* RichTextRow.bundle in Resources */,
+				8BCF95262C6B5C7C000180A2 /* RichTextEditor.html in Resources */,
+				8BCF95272C6B5C7C000180A2 /* RichTextEditor.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
